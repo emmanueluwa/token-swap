@@ -25,5 +25,5 @@ pub fn transfer_tokens<'info> (
         transfer_accounts_options
     );
 
-    transfer_checked(cpi_context, *amount, mint.decimals);
+    transfer_checked(cpi_context, *amount, mint.decimals)
 }
